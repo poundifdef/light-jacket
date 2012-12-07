@@ -5,6 +5,13 @@
   * This was written to work for ATtiny85 pin numbers, but could
   * just as well work with any supported chip.
   *
+  *          ---
+  *   Reset | o | VCC
+  *   Pin 3 |   | Pin 2
+  *   Pin 4 |   | Pin 1
+  *     GND |   | Pin 0
+  *          ---
+  *
   */
 
 /* Pin # for red, green, and blue LED */
